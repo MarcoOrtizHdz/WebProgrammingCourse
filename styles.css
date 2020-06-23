@@ -1,9 +1,59 @@
 h1 {
     color: rgb(175, 50, 175);
     text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 h2 {
     color: rgb(5, 84, 89);
     text-align: left;
+}
+
+p {
+    color: #3c32a8;
+    text-align: left;
+}
+
+/* div {
+    color: rgb(0, 0, 0);
+    background-color: rgb(149, 67, 160);
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-top: 10px;
+    border: 5px dotted rgb(255, 136, 215);
+} */
+
+#top {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(149, 67, 160);
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-top: 10px;
+    border: 5px dotted rgb(255, 136, 215);
+}
+
+#middle {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 136, 255);
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-top: 10px;
+    border: 5px dotted rgb(142, 46, 187);
+}
+
+.name {
+    font-weight: bold;
 }
