@@ -57,3 +57,93 @@ p {
 .name {
     font-weight: bold;
 }
+
+ol > li {
+    color: rgb(19, 80, 97);
+}
+
+ul {
+    color: palevioletred;
+}
+
+input[type=text] {
+    background-color: rgb(212, 107, 107);
+    color: white;
+}
+
+input[type=number] {
+    background-color: rgb(88, 88, 195);
+}
+
+input[name="username"] {
+    background-color: rgb(172, 223, 97);
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: greenyellow;
+    border: 3px dashed rgb(243, 158, 22);
+}
+
+button:hover {
+    background-color: orange;
+    border: 3px solid rgba(0, 0, 0, 0.548);
+}
+
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
+    body {
+        background-color: rgb(191, 224, 245);
+    }
+
+    #top::before {
+        content: "This is the top of my web page.";
+    }
+}
+
+@media (max-width: 699px) {
+    body {
+        background-color: rgb(192, 164, 173);
+    }
+
+    #top::before {
+        content: "This is the top"
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    background-color: rgb(122, 221, 172);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+.grid {
+    background-color: thistle;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 150px 150px auto;
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
